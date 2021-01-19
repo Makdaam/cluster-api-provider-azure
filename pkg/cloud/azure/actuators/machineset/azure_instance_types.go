@@ -356,6 +356,30 @@ var InstanceTypes = map[string]*instanceType{
 		MemoryMb:     262144,
 		GPU:          0,
 	},
+	"Standard_D4as_v4": {
+		InstanceType: "Standard_D4as_v4",
+		VCPU:         4,
+		MemoryMb:     16384,
+		GPU:          0,
+	},
+	"Standard_D8as_v4": {
+		InstanceType: "Standard_D8as_v4",
+		VCPU:         8,
+		MemoryMb:     32768,
+		GPU:          0,
+	},
+	"Standard_D16as_v4": {
+		InstanceType: "Standard_D16as_v4",
+		VCPU:         16,
+		MemoryMb:     65536,
+		GPU:          0,
+	},
+	"Standard_D32as_v4": {
+		InstanceType: "Standard_D32as_v4",
+		VCPU:         32,
+		MemoryMb:     131072,
+		GPU:          0,
+	},
 	"Standard_D32s_v3": {
 		InstanceType: "Standard_D32s_v3",
 		VCPU:         32,
